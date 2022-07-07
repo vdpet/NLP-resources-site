@@ -1,0 +1,270 @@
+
+
+.body{
+  font-family: 'Kdam Thmor Pro, sans-serif;'
+
+}
+.container-fluid {
+  padding: 3% 15% 5% 15%;
+}
+
+h1 {
+
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+
+
+}
+
+h3 {
+  font-weight: 400;
+  font-family: 'Roboto Slab';
+}
+
+h4 {
+  font-family: 'Kdam Thmor Pro';
+}
+
+h6 {
+
+  font-weight: normal;
+}
+
+p{
+  font-family: 'Roboto Slab';
+  text-align: justify;
+  font-size: 0.5rem;
+/*  text-justify: inter-word;*/
+}
+
+#title {
+  background-color: #1A132F;
+  color:#F2EBE9;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Kdam Thmor Pro';
+  font-size: 1.7rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 2px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+
+}
+
+
+/* Tittle Image */
+
+.title-img-div{
+  position: relative;
+  padding: 6em 8em 6em 0em ;
+}
+
+.title-image{
+  position: absolute;
+  max-width: 100%;
+  object-fit: fill;
+}
+
+/* Cards */
+
+.card{
+  padding: 0em 1em;
+}
+
+/* Flashcards Section */
+
+#flashcards {
+  text-align: center;
+  background-color: #1A132F;
+  color: #fff;
+}
+
+.flashcard-image {
+  width: 90%;
+  border-radius: 5%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  background-color: #1A132F;
+}
+
+.empty-feature{
+  padding-bottom: 3.3rem;
+}
+
+
+/* Courses Section */
+.second-container{
+  position: sticky;
+  padding: 5.5rem 3rem 2rem 2rem;
+
+}
+
+
+#courses{
+  padding: 6rem;
+  text-align: center;
+  background-color: #C8F2EF;
+  color: #1A132F;
+}
+
+#courses-row{
+  padding: 0% 5%;
+}
+/* Cute button */
+
+.button-74 {
+  background-color: #FFE59D;
+  border: 2px solid #363062;
+  border-radius: 30px;
+  box-shadow: #827397 4px 4px 0 0;
+  color: #1A132F;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Roboto Slab';
+  padding: 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-74:hover {
+  background-color: #fff;
+}
+.button-74:active {
+  box-shadow: #827397 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.card {
+  background-color: #1A132F;
+  color: #F2EBE9;
+  border-radius: 20px;
+}
+.description{
+    padding: 17px;
+    font-family: 'Roboto Slab';
+}
+.subject{
+  color: #F2EBE9;
+}
+.courses-column{
+  padding: 1rem 1rem 0.3rem 1rem;
+}
+
+/* About page */
+.navbar-pages{
+  font-family: 'Kdam Thmor Pro';
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+#info{
+  padding: 6rem 0.5rem;
+  text-align: center;
+  background-color: #C8F2EF;
+  color: #1A132F;
+}
+
+#info-description{
+  padding: 7em 8em;
+  text-align: center;
+  background-color: #C8F2EF;
+  color: #1A132F;
+}
+
+
+/* Subject pages */
+
+
+#subject-info{
+  padding: 1rem 5rem;
+  background-color: #C8F2EF;
+  color: #1A132F;
+
+}
+
+
+#subject-topics{
+  padding: 6rem 0.5rem;
+  text-align: center;
+  background-color: #1A132F;
+  color: #C8F2EF;
+}
+
+#topics-container{
+  padding: 1em 7em;
+}
+#topics-list{
+  padding: 2em 1em;
+  text-align: left;
+
+}
+
+#topics-row{
+  padding: 1rem 0rem;
+}
+
+
+.list-group{
+  border-radius: 2rem;
+  font-family: 'Roboto Slab', 'serif';
+  padding: 0.5em 0em;
+}
+.list-group-item{
+  border-radius: 2rem;
+  padding: 1em 2em;
+}
+
+.list-group-item{
+  background-color: #FFE59D;
+  border: 2px solid #363062;
+  box-shadow: #827397 2px 2px 1px 1px;
+
+}
+
+.list-group-item:hover {
+  background-color: #fff;
+}
+.list-group-item:active {
+  box-shadow: #827397 2px 2px 1px 1px;
+  transform: translate(2px, 2px);
+}
