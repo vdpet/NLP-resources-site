@@ -1,5 +1,4 @@
 
-
 .body{
   font-family: 'Kdam Thmor Pro, sans-serif;'
 
@@ -48,7 +47,7 @@ p{
 
 #title {
   background-color: #1A132F;
-  color:#F2EBE9;
+  color:#fff;
 }
 
 /* Navigation Bar */
@@ -88,8 +87,7 @@ p{
   max-width: 100%;
   object-fit: fill;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .title-image{
     position: absolute;
     max-width: 70%;
@@ -97,7 +95,7 @@ p{
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .title-img-div{
     position: static;
     max-width: 100%;
@@ -143,6 +141,7 @@ p{
 }
 
 
+
 #courses{
   padding: 6rem;
   text-align: center;
@@ -150,7 +149,7 @@ p{
   color: #1A132F;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   #courses{
     padding: 3em;
   }
@@ -159,6 +158,7 @@ p{
 #courses-row{
   padding: 0% 5%;
 }
+
 /* Cute button */
 
 .button-74 {
@@ -188,11 +188,12 @@ p{
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .button-74 {
     min-width: 120px;
     padding: 0 25px;
   }
+
 }
 
 .card {
@@ -234,15 +235,33 @@ p{
 }
 
 
+@media (max-width: 768px){
+  #info-description{
+    padding: 5em 3em ;
+  }
+}
+
+
+
+
+
 /* Subject pages */
 
 
 #subject-info{
-  padding: 1rem 5rem;
+  padding: 1rem 8rem;
   background-color: #C8F2EF;
   color: #1A132F;
 
 }
+
+@media (max-width: 768px){
+  #subject-info{
+    padding: 1em 3em;
+  }
+}
+
+
 
 
 #subject-topics{
@@ -252,17 +271,14 @@ p{
   color: #C8F2EF;
 }
 
-@media (max-width: 768px) {
-  #subject-topics{
-    padding: 1em;
-  }
-}
+
+
 
 #topics-container{
-  padding: 1em 7em;
+  padding: 1em 8em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   #topics-container{
     padding: 3em;
   }
@@ -277,6 +293,7 @@ p{
 #topics-row{
   padding: 1rem 0rem;
 }
+
 
 
 .list-group{
@@ -303,3 +320,4 @@ p{
   box-shadow: #827397 2px 2px 1px 1px;
   transform: translate(2px, 2px);
 }
+
