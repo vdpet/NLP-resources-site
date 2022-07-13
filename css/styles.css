@@ -89,7 +89,7 @@ p{
   object-fit: fill;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .title-image{
     position: absolute;
     max-width: 70%;
@@ -97,7 +97,7 @@ p{
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .title-img-div{
     position: static;
     max-width: 100%;
@@ -150,7 +150,7 @@ p{
   color: #1A132F;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   #courses{
     padding: 3em;
   }
@@ -188,7 +188,7 @@ p{
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   .button-74 {
     min-width: 120px;
     padding: 0 25px;
@@ -252,7 +252,7 @@ p{
   color: #C8F2EF;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   #subject-topics{
     padding: 1em;
   }
@@ -262,7 +262,7 @@ p{
   padding: 1em 7em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   #topics-container{
     padding: 3em;
   }
