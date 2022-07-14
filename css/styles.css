@@ -16,6 +16,13 @@ h1, h2, h4 {
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
+@media (max-width: 400px){
+  h1 {
+    text-align: center;
+  }
+}
+
+
 h3, h5, h6 {
   font-family: 'Roboto Slab';
 }
@@ -23,7 +30,7 @@ h3, h5, h6 {
 
 p {
   font-family: 'Roboto Slab';
-  font-size: 20px;
+  font-size: 17px;
   /*  text-justify: inter-word;*/
 }
 
@@ -33,21 +40,43 @@ p {
   color: #193441;
 }
 
+.container-fluid {
+  padding: 0rem;
+}
+
 /* Navigation Bar */
 .navbar {
-      /*  padding*/
-      background-color: #3E606F;
-
+    background-color: #3E606F;
+    color: #3E606F;
 }
 
 .navbar-brand {
     font-family: 'Kdam Thmor Pro';
-    padding: 1rem 1rem;
+    padding: 1rem 7rem;
+}
+
+.nav-item {
+  padding: 1rem 7rem;
+}
+
+@media (max-width: 500px){
+  .navbar-brand {
+      padding: 1rem 3rem;
+  }
 }
 
 .row{
   padding: 1rem 7rem;
 }
+
+@media (max-width: 400px){
+  .row {
+      padding: 1em;
+
+  }
+}
+
+
 
 /* Tittle Image */
 .title-img-div {
@@ -57,17 +86,10 @@ p {
 
 .title-image {
   position: relative;
-  max-width: 100%;
+  max-width: 70%;
   object-fit: cover;
 }
 
-@media only screen and (min-width: 320px) {
-  .title-image {
-    max-width: 70%;
-    position: relative;
-    object-fit: cover;
-  }
-}
 
 @media (max-device-width: 707px) {
   .title-img-div {
@@ -122,7 +144,6 @@ p {
 /* Cute button */
 .button-74 {
   background-color: #ECE5C7;
-
   border: 2px solid #193441;
   border-radius: 30px;
   color: #1A132F;
@@ -131,7 +152,7 @@ p {
   font-weight: 500;
   font-size: 18px;
   font-family: 'Roboto Slab';
-  padding: 15px;
+  padding: 5px 15px;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
@@ -161,6 +182,8 @@ p {
   background-color: #3E606F;
   color: #F2EBE9;
   border-radius: 20px;
+  padding: 1em 2em;
+
 }
 
 .description {
@@ -187,10 +210,10 @@ p {
   padding: 1rem 5rem;
   text-align: left;
   background-color: #D1DBBD;
-
+  font-size: 30px;
 }
 
-#info-description {
+#about-description {
 
   text-align: left;
   background-color: #D1DBBD;
@@ -198,14 +221,11 @@ p {
 }
 
 @media only screen and (max-width: 320px) {
-  #info-description {
+  #about-description {
     padding: 1rem 0rem;
 
   }
 
-  #about-me{
-    font-size: 30px;
-  }
 }
 
 @media (max-width: 707px) {
@@ -216,9 +236,10 @@ p {
 
 /* Subject pages */
 #subject-info {
-  padding: 1rem 3rem;
+  padding: 1rem 5rem;
+  text-align: left;
   background-color: #D1DBBD;
-  color:  #193441;
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 320px) {
@@ -242,29 +263,34 @@ p {
 }
 
 #topics-container {
-  padding: 1em 6em;
+  padding: 2em 0em;
 }
 
-@media (max-width: 480px) {
-  #topics-container {
-    padding: 1em 3em;
-  }
-}
+
 
 #topics-list {
-
   text-align: left;
 }
 
 .list-group {
   border-radius: 2rem;
   font-family: 'Roboto Slab', 'serif';
+  padding: 1em 7em;
       /*  padding*/
 }
 
 .list-group-item {
   border-radius: 2rem;
-  padding: 1em 3em;
+  padding: 1rem;
+}
+
+@media (min-width: 300px) {
+  .list-group {
+    border-radius: 2rem;
+    padding: 0em;
+
+  }
+
 }
 
 .list-group-item {
