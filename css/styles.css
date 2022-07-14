@@ -23,6 +23,8 @@ h1, h2, h4 {
 }
 
 
+
+
 h3, h5, h6 {
   font-family: 'Roboto Slab';
 }
@@ -40,6 +42,7 @@ p {
   color: #193441;
 }
 
+#main-title{
 .container-fluid {
   padding: 0rem;
 }
@@ -69,24 +72,16 @@ p {
   padding: 1rem 7rem;
 }
 
-@media (max-width: 400px){
-  .row {
-      padding: 1em;
-
-  }
-}
-
-
-
 /* Tittle Image */
 .title-img-div {
   position: relative;
-  padding: 1rem 1rem;
+  padding: 1rem 0rem;
+
 }
 
 .title-image {
   position: relative;
-  max-width: 70%;
+  max-width: 100%;
   object-fit: cover;
 }
 
@@ -101,6 +96,10 @@ p {
 /* Cards */
 .card {
   padding: 1rem;
+}
+
+.card-header{
+  padding: 0rem;
 }
 
 /* Flashcards Section */
