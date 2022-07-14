@@ -1,120 +1,90 @@
 
-.body{
+ /* Color Theme Swatches in Hex */
+.Neutral-Blue-1-hex { color: #FCFFF5; }
+.Neutral-Blue-2-hex { color: #D1DBBD; }
+.Neutral-Blue-3-hex { color: #91AA9D; }
+.Neutral-Blue-4-hex { color: #3E606F; }
+.Neutral-Blue-5-hex { color: #193441; }
+
+
+.body {
   font-family: 'Kdam Thmor Pro, sans-serif;'
-
-}
-.container-fluid {
-  padding: 3% 15% 5% 15%;
 }
 
-h1 {
 
+h1, h2, h4 {
   font-family: 'Kdam Thmor Pro', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
 }
 
-h2 {
-  font-family: 'Kdam Thmor Pro', sans-serif;
-  font-size: 3rem;
-  font-weight: 800;
-  line-height: 1.5;
-
-
-}
-
-h3 {
-  font-weight: 400;
+h3, h5, h6 {
   font-family: 'Roboto Slab';
 }
 
-h4 {
-  font-family: 'Kdam Thmor Pro';
-}
 
-h6 {
-
-  font-weight: normal;
-}
-
-p{
+p {
   font-family: 'Roboto Slab';
-  text-align: justify;
-  font-size: 0.5rem;
-/*  text-justify: inter-word;*/
+  font-size: 20px;
+  /*  text-justify: inter-word;*/
 }
+
 
 #title {
-  background-color: #1A132F;
-  color:#fff;
+  background-color: #FCFFF5;
+  color: #193441;
 }
 
 /* Navigation Bar */
+.navbar {
+      /*  padding*/
+      background-color: #3E606F;
 
-.navbar{
-    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-  font-family: 'Kdam Thmor Pro';
-  font-size: 1.7rem;
-  font-weight: bold;
-
+    font-family: 'Kdam Thmor Pro';
+    padding: 1rem 1rem;
 }
 
-.nav-item {
-  padding: 0 2px;
+.row{
+  padding: 1rem 7rem;
 }
-
-.nav-link {
-  font-size: 1.4rem;
-  font-family: 'Roboto Slab';
-  font-weight: 400;
-
-}
-
 
 /* Tittle Image */
-
-.title-img-div{
+.title-img-div {
   position: relative;
-  padding: 6em 8em 6em 0em ;
+  padding: 1rem 1rem;
 }
 
-.title-image{
-  position: absolute;
+.title-image {
+  position: relative;
   max-width: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
-@media (max-width: 500px) {
-  .title-image{
-    position: absolute;
+
+@media only screen and (min-width: 320px) {
+  .title-image {
     max-width: 70%;
-    object-fit: contain;
+    position: relative;
+    object-fit: cover;
   }
 }
 
-@media (max-width: 500px) {
-  .title-img-div{
-    position: static;
-    max-width: 100%;
+@media (max-device-width: 707px) {
+  .title-img-div {
+    position: sticky;
+    padding: 1em;
   }
-
 }
 
 /* Cards */
-
-.card{
-  padding: 0em 1em;
+.card {
+  padding: 1rem;
 }
 
 /* Flashcards Section */
-
 #flashcards {
   text-align: center;
-  background-color: #1A132F;
-  color: #fff;
+
 }
 
 .flashcard-image {
@@ -123,56 +93,45 @@ p{
   margin: 20px;
 }
 
-.carousel-item{
-  padding: 7% 15%;
-  background-color: #1A132F;
+.carousel-item {
+  background-color: #193441;
 }
 
-.empty-feature{
-  padding-bottom: 3.3rem;
+.empty-feature {
+      /*  padding*/
 }
-
 
 /* Courses Section */
-.second-container{
+.second-container {
   position: sticky;
-  padding: 5.5rem 3rem 2rem 2rem;
-
+  padding: 1rem 3rem;
 }
 
-
-
-#courses{
-  padding: 6rem;
+#courses {
+  padding: 1rem 3rem;
   text-align: center;
-  background-color: #C8F2EF;
-  color: #1A132F;
+  background-color: #ECE5C7;
+  color: #193441;
 }
 
-@media (max-width: 500px) {
-  #courses{
-    padding: 3em;
-  }
-}
 
-#courses-row{
-  padding: 0% 5%;
+#courses-row {
+  padding: 1rem 3rem;
 }
 
 /* Cute button */
-
 .button-74 {
-  background-color: #FFE59D;
-  border: 2px solid #363062;
+  background-color: #ECE5C7;
+
+  border: 2px solid #193441;
   border-radius: 30px;
-  box-shadow: #827397 4px 4px 0 0;
   color: #1A132F;
   cursor: pointer;
   display: inline-block;
   font-weight: 500;
   font-size: 18px;
   font-family: 'Roboto Slab';
-  padding: 18px;
+  padding: 15px;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
@@ -180,144 +139,145 @@ p{
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
 .button-74:hover {
-  background-color: #fff;
+  background-color: #D1DBBD;
+
 }
+
 .button-74:active {
-  box-shadow: #827397 2px 2px 0 0;
+  box-shadow: #354259 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 480px) {
   .button-74 {
     min-width: 120px;
     padding: 0 25px;
   }
-
 }
 
 .card {
-  background-color: #1A132F;
+  background-color: #3E606F;
   color: #F2EBE9;
   border-radius: 20px;
 }
-.description{
-    padding: 17px;
-    font-family: 'Roboto Slab';
+
+.description {
+
+  font-family: 'Roboto Slab';
 }
-.subject{
+
+.subject {
   color: #F2EBE9;
 }
-.courses-column{
-  padding: 1rem 1rem 0.3rem 1rem;
+
+.courses-column {
+  padding: 1rem;
 }
 
 /* About page */
-.navbar-pages{
+.navbar-pages {
   font-family: 'Kdam Thmor Pro';
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+#info {
+  padding: 1rem 5rem;
+  text-align: left;
+  background-color: #D1DBBD;
 
 }
 
-#info{
-  padding: 6rem 0.5rem;
-  text-align: center;
-  background-color: #C8F2EF;
-  color: #1A132F;
+#info-description {
+
+  text-align: left;
+  background-color: #D1DBBD;
+  color: #193441;
 }
 
-#info-description{
-  padding: 7em 8em;
-  text-align: center;
-  background-color: #C8F2EF;
-  color: #1A132F;
-}
+@media only screen and (max-width: 320px) {
+  #info-description {
+    padding: 1rem 0rem;
 
+  }
 
-@media (max-width: 768px){
-  #info-description{
-    padding: 5em 3em ;
+  #about-me{
+    font-size: 30px;
   }
 }
 
-
-
-
-
-/* Subject pages */
-
-
-#subject-info{
-  padding: 1rem 8rem;
-  background-color: #C8F2EF;
-  color: #1A132F;
-
+@media (max-width: 707px) {
+  #info-description {
+        /*  padding*/
+  }
 }
 
-@media (max-width: 768px){
-  #subject-info{
+/* Subject pages */
+#subject-info {
+  padding: 1rem 3rem;
+  background-color: #D1DBBD;
+  color:  #193441;
+}
+
+@media only screen and (max-width: 320px) {
+  #subject-info {
+    padding: 1em 2em;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #subject-description {
+    font-size: 18px;
+  }
+}
+
+#subject-topics {
+      /*  padding*/
+  text-align: center;
+  background-color: #3E606F;
+  color: #FCFFF5;
+}
+
+#topics-container {
+  padding: 1em 6em;
+}
+
+@media (max-width: 480px) {
+  #topics-container {
     padding: 1em 3em;
   }
 }
 
+#topics-list {
 
-
-
-#subject-topics{
-  padding: 6rem 0.5rem;
-  text-align: center;
-  background-color: #1A132F;
-  color: #C8F2EF;
-}
-
-
-
-
-#topics-container{
-  padding: 1em 8em;
-}
-
-@media (max-width: 500px) {
-  #topics-container{
-    padding: 3em;
-  }
-}
-
-#topics-list{
-  padding: 2em 1em;
   text-align: left;
-
 }
 
-#topics-row{
-  padding: 1rem 0rem;
-}
-
-
-
-.list-group{
+.list-group {
   border-radius: 2rem;
   font-family: 'Roboto Slab', 'serif';
-  padding: 0.5em 0em;
-}
-.list-group-item{
-  border-radius: 2rem;
-  padding: 1em 2em;
+      /*  padding*/
 }
 
-.list-group-item{
-  background-color: #FFE59D;
-  border: 2px solid #363062;
-  box-shadow: #827397 2px 2px 1px 1px;
+.list-group-item {
+  border-radius: 2rem;
+  padding: 1em 3em;
+}
+
+.list-group-item {
+  background-color: #FDF6EC;
+  border: 2px solid #112031;
 
 }
 
 .list-group-item:hover {
   background-color: #fff;
 }
+
 .list-group-item:active {
-  box-shadow: #827397 2px 2px 1px 1px;
+  box-shadow: #193441 2px 2px 1px 1px;
   transform: translate(2px, 2px);
 }
-
