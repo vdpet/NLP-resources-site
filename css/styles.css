@@ -43,6 +43,15 @@ p {
 }
 
 #main-title{
+  font-size: 3.5em;
+}
+
+@media (min-width: 400px){
+  #main-title {
+    text-align: center;
+  }
+}
+
 .container-fluid {
   padding: 0rem;
 }
@@ -129,7 +138,7 @@ p {
 }
 
 #courses {
-  padding: 1rem 3rem;
+  padding: 3rem 3rem;
   text-align: center;
   background-color: #ECE5C7;
   color: #193441;
@@ -206,7 +215,7 @@ p {
 }
 
 #info {
-  padding: 1rem 5rem;
+  padding: 3rem 5rem;
   text-align: left;
   background-color: #D1DBBD;
   font-size: 30px;
