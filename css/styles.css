@@ -13,7 +13,8 @@
 
 
 h1, h2, h4 {
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
 }
 
 @media (max-width: 400px){
@@ -58,12 +59,13 @@ p {
 
 /* Navigation Bar */
 .navbar {
-    background-color: #3E606F;
-    color: #3E606F;
+    background-color: #193441;
+    color: #193441;
 }
 
 .navbar-brand {
-    font-family: 'Kdam Thmor Pro';
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
     padding: 1rem 7rem;
 }
 
@@ -90,7 +92,7 @@ p {
 
 .title-image {
   position: relative;
-  max-width: 100%;
+  max-width: 90%;
   object-fit: cover;
 }
 
@@ -124,7 +126,8 @@ p {
 }
 
 .carousel-item {
-  background-color: #193441;
+  background-color: #3E606F;
+  padding: 1rem 6rem;
 }
 
 .empty-feature {
@@ -140,7 +143,7 @@ p {
 #courses {
   padding: 3rem 3rem;
   text-align: center;
-  background-color: #ECE5C7;
+  background-color: #D1DBBD;
   color: #193441;
 }
 
@@ -187,7 +190,7 @@ p {
 }
 
 .card {
-  background-color: #3E606F;
+  background-color: #193441;
   color: #F2EBE9;
   border-radius: 20px;
   padding: 1em 2em;
@@ -206,6 +209,25 @@ p {
 .courses-column {
   padding: 1rem;
 }
+
+@media (max-device-width: 707px){
+  #courses-row {
+    padding: 1rem;
+  }
+
+  .courses-column {
+    padding: 1rem;
+  }
+
+  .card{
+    padding: 1rem;
+
+  }
+
+}
+
+
+
 
 /* About page */
 .navbar-pages {
@@ -264,7 +286,6 @@ p {
 }
 
 #subject-topics {
-      /*  padding*/
   text-align: center;
   background-color: #3E606F;
   color: #FCFFF5;
@@ -284,7 +305,7 @@ p {
   border-radius: 2rem;
   font-family: 'Roboto Slab', 'serif';
   padding: 1em 7em;
-      /*  padding*/
+
 }
 
 .list-group-item {
@@ -293,10 +314,24 @@ p {
 }
 
 @media (min-width: 300px) {
+
+  #topics-list {
+    text-align: center;
+    padding: 0em;
+  }
+
+  .topics-column{
+    padding: 0em;
+  }
   .list-group {
     border-radius: 2rem;
-    padding: 0em;
+    padding: 0.5em;
 
+  }
+
+  .list-group-item {
+    border-radius: 2rem;
+    padding: 1em 1.5em;
   }
 
 }
@@ -308,10 +343,86 @@ p {
 }
 
 .list-group-item:hover {
-  background-color: #fff;
+  background-color: #FCFFF5;
 }
 
 .list-group-item:active {
   box-shadow: #193441 2px 2px 1px 1px;
   transform: translate(2px, 2px);
 }
+
+ .img-fluid{
+   max-width: 90%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1em;
+   border-radius: 50px;
+ }
+
+ #first-topic-ml{
+   background: #D1DBBD;
+   padding-top: 2em;
+   padding-bottom: 2em;
+ }
+
+ #second-topic-vsm{
+   background: #3E606F;
+   padding-top: 2em;
+   padding-bottom: 2em;
+ }
+
+#first-anchor{
+  background: #D1DBBD;
+  padding-left: 5em;
+  padding-top: 2em;
+}
+
+#second-anchor{
+   background: #3E606F;
+   padding-left: 5em;
+   padding-top: 2em;
+}
+
+#end-anchor{
+  padding-left: 10em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: #193441;
+  color: #FDF6EC;
+}
+ .button-2 {
+   background-color: #ECE5C7;
+   border: 2px solid #193441;
+   border-radius: 30px;
+   color: #1A132F;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 500;
+   font-size: 18px;
+   font-family: 'Roboto Slab';
+   padding: 5px 15px;
+   line-height: 50px;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+
+ .button-2:hover {
+   background-color: #D1DBBD;
+
+ }
+
+ .button-2:active {
+   box-shadow: #354259 2px 2px 0 0;
+   transform: translate(2px, 2px);
+ }
+
+ @media (min-width: 480px) {
+   .button-2 {
+     min-width: 120px;
+     padding: 0 25px;
+   }
+ }

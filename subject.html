@@ -7,8 +7,8 @@
   <title>IN2110</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Slab:wght@300;400;500;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Slab:wght@300;400;500;800&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- CSS-stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
@@ -19,8 +19,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-    <!-- Title -->
+  <!-- Title -->
   <section id="title">
     <div class="container-fluid">
 
@@ -45,7 +46,7 @@
           <h1>Methods in Language Technology</h1>
         </div>
         <div class="title-img-div col-lg-4 col-sm-6">
-          <img class="title-image" src="images/talk.png" alt="a drawing representing a conversation">
+          <img class="title-image" src="images/compu-mail.png" alt="a drawing representing a conversation">
         </div>
       </div>
     </div>
@@ -53,74 +54,98 @@
 
   </section>
   <section id="info">
-  <div id="about-description" class="container-sm">
-    <h4 style="text-align: left;"> Course description </h4>
-    <p id="about-me"> This course gives an in-depth study in basic methods and practical tools for basal language technology. It covers both rule-based techniques, such as phrase structure grammar, and approximations with a starting point in machine learning, such as vector space semantics and classification. <br> <br> The course will take a look at some applications of methods for issues within language technology such as tagging, parsing and text classification (such as sentiment analysis). <br> <br> This is a course with a strong practical component, with use of relevant tools and projects with written rapports. </p>
+    <div id="about-description" class="container-sm">
+      <h4 style="text-align: left;"> Course description </h4>
+      <p id="about-me"> This course gives an in-depth study in basic methods and practical tools for basal language technology. It covers both rule-based techniques, such as phrase structure grammar, and approximations with a starting point in
+        machine learning, such as vector space semantics and classification. <br> <br> The course will take a look at some applications of methods for issues within language technology such as tagging, parsing and text classification (such as
+        sentiment analysis). <br> <br> This is a course with a strong practical component, with use of relevant tools and projects with written rapports. </p>
 
-  </div>
+    </div>
 
   </section>
 
 
   <section id="subject-topics">
-    <div id= "topics-container">
-    <div id="topics-row" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-       <div class="topics-column col-lg-6 col-md-6">
+    <div id="topics-container">
+      <div id="topics-row" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="topics-column col-lg-6 col-md-6">
 
-           <h4 class="subject">Theory topics</h4>
-
-
-
-           <div id="topics-list" class="container-sm">
+          <h4 class="subject">Theory topics</h4>
 
 
-           <div class="list-group">
 
-             <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Machine Learning approaches</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-success">Document vectors</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Classification & vector spaces</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Clustering</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-success">Lexical semantics & word vectors </a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Logistic regression</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Sequences</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-success">Dependency syntax</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Parsing</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Machine translation</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-success">Interactive systems</a>
+          <div id="topics-list" class="container-sm">
 
 
-           </div>
+            <div class="list-group">
 
-         </div>
+              <a href="#first-topic-ml" class="list-group-item list-group-item-action list-group-item-primary">Machine Learning approaches</a>
+              <a href="#second-topic-vsm" class="list-group-item list-group-item-action list-group-item-success">Vector Space Models</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Classification</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Clustering</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-success">Lexical semantics & word vectors </a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Logistic regression</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Sequences</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-success">Dependency syntax</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Parsing</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Machine translation</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-success">Interactive systems</a>
 
-       </div>
 
-       <div class="topics-column col-lg-6 col-md-6">
+            </div>
 
-           <h4 class="subject">Practical tools</h4>
-           <div id="topics-list" class="container-sm">
-           <div class="list-group">
+          </div>
 
-             <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Jupyter Notebooks</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-success">Pandas</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Scikit-Learn</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-primary">MatPlotLib</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-success">Syllabus</a>
-             <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Extra resources</a>
+        </div>
 
-           </div>
+        <div class="topics-column col-lg-6 col-md-6">
 
-         </div>
+          <h4 class="subject">Practical tools</h4>
+          <div id="topics-list" class="container-sm">
+            <div class="list-group">
 
-       </div>
-  </div>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Jupyter Notebooks</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-success">Pandas</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Scikit-Learn</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">MatPlotLib</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-success">Syllabus</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Extra resources</a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
   </section>
 
-</div>
-  <!-- Footer -->
+  </div>
+  <!-- Slides -->
+  <section id="topics-slides" class="container-fluid">
+
+    <div id="first-anchor">
+      <button onclick="location.href='#subject-topics'" class="button-2" role="button">Back to Topics</button>
+    </div>
+    <div id="first-topic-ml">
+      <img src="images/SLIDES/ML-1.jpg" class="img-fluid" alt="Responsive image">
+      <img src="images/SLIDES/ML-2.jpg" class="img-fluid" alt="Responsive image">
+      <img src="images/SLIDES/ML-3.jpg" class="img-fluid" alt="Responsive image">
+    </div>
 
 
+    <div id="second-anchor">
+      <button onclick="location.href='#subject-topics'" class="button-2" role="button">Back to Topics</button>
+    </div>
+    <div id="second-topic-vsm">
+      <img src="images/SLIDES/VSM.jpg" class="img-fluid" alt="Responsive image">
+      <img src="images/SLIDES/VSM-1.jpg" class="img-fluid" alt="Responsive image">
 
+    </div>
+    <div id="end-anchor">
+      <button onclick="location.href='#subject-topics'" class="button-2" role="button">Back to Topics</button>
+
+
+  </section>
 </body>
 
 </html>
